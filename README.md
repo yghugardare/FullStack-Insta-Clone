@@ -8,5 +8,6 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-- Used chakra ui's tooltip and avatar while designing sidebar
+- Used chakra ui's tooltip and avatar while designing sidebar and useLocation 
+- Instead of adding the Sidebar component to every page, we can add it only once to the PageLayout component and wrap the children with it. This way, we can have a sidebar on every page except the AuthPage.
 
